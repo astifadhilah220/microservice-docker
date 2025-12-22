@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 products_data = [
-    {"id": 101, "name": "Laptop", "price": 12000000},
+    {"id": 101, "name": "Laptop gaming", "price": 12000000},
     {"id": 102, "name": "Keyboard", "price": 350000},
     {"id": 103, "name": "Mouse", "price": 150000}
 ]
